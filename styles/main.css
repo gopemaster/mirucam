@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body { 
+    transition: background-color 200ms ease; 
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+#loaderContainer {
+    background-color: #2d2d2d;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    color: white;
+}
+
+.spinner {  
+    animation: spin 1s linear infinite;  
+    transform-origin: 50% 50%;}
+
+@keyframes spin {  
+    to { 
+        transform: rotate(360deg); 
+    }
+}
+
+.window {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

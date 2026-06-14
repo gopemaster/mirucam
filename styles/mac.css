@@ -1,0 +1,82 @@
+.window {
+    border: 1px solid #7e7e7e;
+    border-radius: 0.75rem;
+    background-color: #343434;
+}
+
+.top-bar {
+    background-color: #343434;
+    height: 25px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.left {
+    display: flex;
+    padding-left: 0.75rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.btn1 {
+    height: 15px;
+    width: 15px;
+    background-color: #fb736b;
+    border-radius: 50%;
+}
+
+.btn2 {
+    height: 15px;
+    width: 15px;
+    background-color: #fccb00;
+    border-radius: 50%;
+}
+
+.btn3 {
+    height: 15px;
+    width: 15px;
+    background-color: #1bc233;
+    border-radius: 50%;
+}
+
+.bottom-bar {
+    background-color: #343434;
+    height: 50px;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.capture-btn {
+    height: 40px;
+    width: 40px;
+    background-color: #fd372b;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    border-top: 1px solid #7e7e7e;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+.capture-btn:hover {
+    background-color: #ff4137;
+    cursor: pointer;
+}

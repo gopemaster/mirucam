@@ -1,0 +1,19 @@
+.capture-btn {
+    display: none;
+}
+
+.window {
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    background-color: white;
+}
+
+.top-bar {
+    background-color: white;
+    height: 25px;
+}
+
+.bottom-bar {
+    background-color: white;
+    height: 75px;
+}
